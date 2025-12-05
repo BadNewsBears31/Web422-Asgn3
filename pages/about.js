@@ -11,16 +11,16 @@ export default function About({ book }) {
         <Card className="text-center mx_auto">
           <Card.Body>
             <p>
-              Hi, I'm Aidan Ramos, a Seneca Computer Programming student currently in my last semester.
+              Hi, I&apos;m Aidan Ramos, a Seneca Computer Programming student currently in my last semester.
               We are currently learning about Next.js and React, and have been tasked with building this
               website in order to learn and test our skills.
             </p>
             <p>
               I find this stuff mildly confusing as there are so many terms and processes to memorize.
-              But I’m improving step by step.
+              But I&apos;m improving step by step.
             </p>
             <p>
-              My absolute favourite book is "<strong>{book.title}</strong>", written by "J.R.R Tolkien".
+              My absolute favourite book is <strong>{book.title}</strong>, written by J.R.R Tolkien.
               Below you can find out the details that have been fetched from the OpenLibrary Books API.
             </p>
           </Card.Body>
